@@ -1,9 +1,30 @@
-# FDR 2.0 发布页
+# FDR 2.0
 
-此仓库只托管 FDR 2.0 的公开发行包和游戏目录数据。应用源码保存在非公开仓库，不在此仓库分发。
+FDR 2.0 是面向 Windows 与 Linux 的游戏库和下载管理应用。你可以离线浏览随应用附带的游戏目录；下载游戏和检查在线目录更新需要网络。
 
-- [最新目录与完整性清单](https://frog-symphony.github.io/FDR-2.0-releases/latest.json)
-- [目录浏览页](https://frog-symphony.github.io/FDR-2.0-releases/)
-- [应用压缩包](https://github.com/Frog-Symphony/FDR-2.0-releases/releases)
+当前公开预览版：**v0.1.0-alpha.5**。从 [发行页面](https://github.com/Frog-Symphony/FDR-2.0-releases/releases/latest) 下载 Windows 或 Linux x64 压缩包。
 
-目录数据取自第三方来源，来源链接、封面及元数据可能变化。Windows 和 Linux 压缩包均为当前开发原型；正式发行前仍需完成实机验收。
+## 快速开始
+
+1. 下载适用于系统的 ZIP 压缩包并解压到本地目录。
+2. Windows 启动 `FDR.exe`；Linux 启动解压目录中的 `FDR`。
+3. 首次启动即可浏览随包目录。下载、在线目录更新及封面或元数据刷新需要网络连接。
+
+无需运行安装程序。游戏文件默认下载到应用可执行文件同级的 `Downloads` 目录；可在应用设置中更改。
+
+## 当前功能
+
+预览版已接入游戏目录浏览、分类和元数据展示、下载任务管理、自动解压选项、个人游戏库、Steam 与桌面快捷方式、游玩时长、云存档原型及本机数据备份。部分功能仍在开发和验收中，实际可用范围以应用内行为为准。
+
+Windows 10/11 x64 是当前主要测试环境。Linux x64 压缩包以 CachyOS／Arch 为目标，尚待对应桌面环境实机验收。干净 Windows 环境、真实游戏下载、云存档远端传输和部分跨平台功能也仍在验证。
+
+## 游戏目录
+
+首次下载后，随包基础目录可离线浏览。客户端联网后会检查目录更新，并只获取版本变化所需的数据；目录快照、增量和修复分片由公开页面提供：
+
+- [当前目录版本与更新清单](https://frog-symphony.github.io/FDR-2.0-releases/latest.json)
+- [目录发布页](https://frog-symphony.github.io/FDR-2.0-releases/)
+
+## 项目范围
+
+本仓库用于发布应用压缩包和客户端目录数据，不包含应用源码。源码仓库保持私有。
