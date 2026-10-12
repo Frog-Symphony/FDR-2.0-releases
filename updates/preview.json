@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "channel": "preview",
+  "version": "2.0.0",
+  "notes": "# FDR 2.0.0\n\n首个 2.0 公开版本，提供 Windows 10/11 x64 便携客户端。解压后运行 FDR.exe。\n\n- 全新游戏目录、搜索、分类、中文支持及已安装／未安装筛选。\n- Play 和天翼云资源目录、下载队列、解压安装及个人游戏库。\n- 游戏启动、游玩时长、桌面与 Steam 快捷方式管理。\n- 机舱白、石墨黑与安全橙界面，随机推荐卡带及启动动效。\n- 设置内的资料补全；自动桌面快捷方式默认关闭。\n- 客户端更新、完整性检查、增量／整包更新和失败回退；明确区分无新版本与检查失败。\n\n此版仅发布 Windows 包。Linux 工作暂缓；真实云盘账号传输、大型游戏续传和中国大陆网络稳定性仍需继续验收。旧 FDR 的代码及个人数据不迁移。已有 2.0 本地预览用户请先备份 UserData，再用本版程序文件替换；首次下载用户无需额外安装。\n\n后续兼容修复递增 PATCH，新功能递增 MINOR，破坏兼容的变更递增 MAJOR。",
+  "published_at": "2026-10-12T12:54:59Z",
+  "platform": "win32",
+  "arch": "x64",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.0.0/FDR-2.0.0-windows-x64.zip",
+  "size": 171330767,
+  "sha256": "75de35f15e6caf53a962d31bdd56e7b7484c36d951aecb88ead21b96baeef40d"
+}
