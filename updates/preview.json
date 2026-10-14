@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "channel": "preview",
-  "version": "2.1.1",
-  "notes": "FDR 2.1.1（Windows x64）\n\n- 修复 Windows 更新及失败回退后启动为空白页：文件校验继续使用 canonical 路径，GUI 重启改用经目录身份核验的普通等价路径。\n- 包含推荐切换、换批、个人库焦点和启动动效修复；统一由应用“减少动态效果”开关控制。\n- 修复长中文推荐标题末字孤行，补齐 Bangumi 天翼封面校验。\n- 随包 Play 目录 20261013T044926Z（3411 款），天翼 2541 款，合计 5952 款，附当前中文与语种资料。\n- 项目源码含目录管理工作台、多来源核验、增量补采、黑名单、字段多选和自动任务管理，并修复维护端系统代理变化后的连接恢复；维护工具依赖项目环境，不随普通客户端独立分发。\n\n支持 2.0.0 文件级增量升级；2.1.0 或其它版本使用整包。2.1.0 更新提示已因重启缺陷撤回，此版替代它。\n验证：112 项核心、159 项工具、21 项更新回归、前端和核心构建、严格 Clippy／fmt，以及真实本机安装成功和失败回退重启、数据保留、101 文件一致、完整页面和动效验收。\n资料 99% 目标尚未完成；Linux、真实天翼账号传输、大文件续传及中国大陆封面首次可达未在本轮验收。\n完整包 SHA-256：`4847fef33e8749f372af8678c30ec25619d1154a2e464283b9f6a36ad7885e53`。\n\n源码提交：`6a6608d6addf03581fd9834737103d9aa383e815`。",
-  "published_at": "2026-10-13T17:44:07Z",
+  "version": "2.2.0",
+  "notes": "游戏介绍支持在详情页内翻译为中文，并可切换查看原文。\n\n详情页下载按钮下方新增中文支持提醒：只有语种资料明确不支持简体和繁体中文时显示，语种未知时不提醒。\n\nWindows x64 便携版。翻译需要联网，使用 Google 机器翻译；连接失败时保留原文并允许重试。当前翻译使用系统代理，未接入应用内元数据代理预设。Linux 发行继续暂缓。\n\n\n升级：2.1.1 提供文件级增量包，其他版本使用完整包。\n\n源码提交：`588b32ed02059998e5d63fd81c4df5b219536fc4`。\n验证：112 项核心测试、159 项工具测试、23 项翻译及更新回归、严格 Clippy／fmt、前端及核心生产构建、详情交互验收通过；公开包摘要和升级验收另行记录。",
+  "published_at": "2026-10-14T01:03:57Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.1.1/FDR-2.1.1-windows-x64.zip",
-  "size": 171383004,
-  "sha256": "4847fef33e8749f372af8678c30ec25619d1154a2e464283b9f6a36ad7885e53",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.2.0/FDR-2.2.0-windows-x64.zip",
+  "size": 171385210,
+  "sha256": "cadd62ab000a0d39d4175f5f5bf2d80389e3cb37fe63fc67ec74baff2b4ede4f",
   "delta": {
     "schema": 1,
-    "from_version": "2.0.0",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.1.1/FDR-2.1.1-windows-x64-delta.zip",
-    "size": 10880715,
-    "sha256": "395f93453f1018a83abefa13018b741d64bc2d5dcaf7e106191211b70adf7414"
+    "from_version": "2.1.1",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.2.0/FDR-2.2.0-windows-x64-delta.zip",
+    "size": 10387998,
+    "sha256": "a66903111d8f09454ade37fbc73f74dbd550db68b69b6b51ecd6b886e78d8812"
   }
 }
