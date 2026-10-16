@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.3.0-preview.1",
-  "notes": "FDR 2.3.0 原生预览版\n\n- 在线检查游戏目录后，提示现在会显示所核验的目录版本，便于确认本机数据是否已更新。\n\n此包仍是原生客户端预览版。79 项原生功能验收尚未全部完成，天翼云资源目录接口仍返回 HTTP 400。当前卡带音效附带的来源说明仅覆盖本地非商业实验预览，公开分发授权尚未确认。",
-  "published_at": "2026-10-16T03:41:38Z",
+  "version": "2.3.0",
+  "notes": "# FDR 2.3.0\n\n- 正式接入 C++ / Qt Quick 原生桌面客户端。\n- 修复目录管理命令启动、窗口和任务栏图标。\n- 天翼云下载会自动创建不存在的目标目录。\n- 正式用户数据目录改为 `FDRData`；首次启动会从 `NativeTestData` 自动迁移已有数据。\n- 保留原生预览客户端更新通道的兼容标识。",
+  "published_at": "2026-10-16T04:43:56Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.3.0-preview.1/FDR-2.3.0-preview.1-catalog-version-20261016.zip",
-  "size": 45630606,
-  "sha256": "55972a87719c2ef9c26246d0080aa670ce4f4a829ef09273fa8574a66413d95b"
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.3.0/FDR-2.3.0-windows-x64.zip",
+  "size": 45810236,
+  "sha256": "35774ea2b64ca1f8e5217aca7b4af73ca1e101a01037f1641e12dc89ea86aa0a"
 }
