@@ -1,19 +1,13 @@
 {
   "schema": 1,
-  "channel": "preview",
-  "version": "2.2.0",
-  "notes": "游戏介绍支持在详情页内翻译为中文，并可切换查看原文。\n\n详情页下载按钮下方新增中文支持提醒：只有语种资料明确不支持简体和繁体中文时显示，语种未知时不提醒。\n\nWindows x64 便携版。翻译需要联网，使用 Google 机器翻译；连接失败时保留原文并允许重试。当前翻译使用系统代理，未接入应用内元数据代理预设。Linux 发行继续暂缓。\n\n\n升级：2.1.1 提供文件级增量包，其他版本使用完整包。\n\n源码提交：`588b32ed02059998e5d63fd81c4df5b219536fc4`。\n验证：112 项核心测试、159 项工具测试、23 项翻译及更新回归、严格 Clippy／fmt、前端及核心生产构建、详情交互验收通过；公开包摘要和升级验收另行记录。",
-  "published_at": "2026-10-14T01:03:57Z",
+  "channel": "native-qt-experiment",
+  "client_architecture": "native-qt",
+  "version": "2.3.0-preview.1",
+  "notes": "FDR 2.3.0 原生预览版\n\n- 在线检查游戏目录后，提示现在会显示所核验的目录版本，便于确认本机数据是否已更新。\n\n此包仍是原生客户端预览版。79 项原生功能验收尚未全部完成，天翼云资源目录接口仍返回 HTTP 400。当前卡带音效附带的来源说明仅覆盖本地非商业实验预览，公开分发授权尚未确认。",
+  "published_at": "2026-10-16T03:41:38Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.2.0/FDR-2.2.0-windows-x64.zip",
-  "size": 171385210,
-  "sha256": "cadd62ab000a0d39d4175f5f5bf2d80389e3cb37fe63fc67ec74baff2b4ede4f",
-  "delta": {
-    "schema": 1,
-    "from_version": "2.1.1",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.2.0/FDR-2.2.0-windows-x64-delta.zip",
-    "size": 10387998,
-    "sha256": "a66903111d8f09454ade37fbc73f74dbd550db68b69b6b51ecd6b886e78d8812"
-  }
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.3.0-preview.1/FDR-2.3.0-preview.1-catalog-version-20261016.zip",
+  "size": 45630606,
+  "sha256": "55972a87719c2ef9c26246d0080aa670ce4f4a829ef09273fa8574a66413d95b"
 }
