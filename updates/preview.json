@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.4.0",
-  "notes": "新增基础封面、两款横版卡带和透明光盘盒，可在设置中切换，同时用于随机游戏推荐、我的游戏卡带视图及启动演出。\n\n- 保留经典竖版卡带，样式自动保存；两款横版按对称款、斜角款区分。\n- 光盘盒包含厚壁透视、开盖取盘和落盘读取动效，闭合封套正确遮住内部盘片。\n- 原卡带底座同步读取扫光，支持减少动态、独立音效和取消启动。\n- 移除界面纸张点纹背景，保留暖纸色界面。\n- 包含主线已有的目录草稿发布状态修复。\n\nWindows x64 正式版。解压整个文件夹后运行 FDR.exe；升级时保留 FDRData。Linux 与完整输入/硬件验收范围沿用已有记录。\n\n源码提交：4046958ab4605f432453b4c726b24c90bf3ec94d。临时网页设计稿与GIF未纳入提交或发行包。\n\n验证：正式ZIP解压启动及2.4.0健康回执通过；五样式双尺寸54张原生截图、94项行为检查、42次音频事件及20次安全夹具启动请求通过。工具测试187项通过（Windows跳过1项POSIX模式检查）。更新器未改动，沿用分级轻量发行验收。",
-  "published_at": "2026-10-17T00:39:26Z",
+  "version": "2.4.1",
+  "notes": "修复原生客户端普通启动无法检查更新的问题。\n\n- 为原生更新器补上正式默认更新源，启动检查、每 6 小时检查和手动检查均使用公开清单；保留显式测试源覆盖。\n- 包含主线已提交的鼠标／触控板滚动兼容修复。\n- Windows x64 正式版，保留 FDRData 和已下载游戏。\n\n旧版 2.3.0／2.4.0 自身缺少默认更新源：请完整退出旧客户端后，在程序目录运行 `FDR.exe --native-update-feed https://frog-symphony.github.io/FDR-2.0-releases/updates/preview.json`，再检查更新；也可直接下载整包，退出旧版后保留 FDRData 升级。安装 2.4.1 后普通启动即可检查更新，无需该参数。\n\n源码提交：3f04880b6b46f0c7643deb07307f926600702a65。\n\n已通过默认源／显式覆盖回归、Qt真实滚轮处理器回归、发布工具测试及Rust核心／Qt Release构建。发行包的升级、健康重启和公网校验结果见项目验收记录；Linux和用户实体触控板设备范围沿用既有说明。",
+  "published_at": "2026-10-18T13:43:13Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.4.0/FDR-2.4.0-windows-x64.zip",
-  "size": 46017048,
-  "sha256": "4f822c060874de12402605821b0e4d0c548e5382985d8c60dc219ad017b462b0",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.4.1/FDR-2.4.1-windows-x64.zip",
+  "size": 46017826,
+  "sha256": "d6ba7f8afc429d5398c7f2586f2e9c5a6c2d3b50853b3009f661b1050dc91a90",
   "delta": {
     "schema": 1,
     "from_version": "2.3.0",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.4.0/FDR-2.4.0-windows-x64-delta.zip",
-    "size": 12012046,
-    "sha256": "ebaa1b4927ae9f5342595df9e59914fbce2bb36b955eb727dc04f87803c1f018"
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.4.1/FDR-2.4.1-windows-x64-delta.zip",
+    "size": 12012827,
+    "sha256": "29f9221b8d415145ec637ef3ec1c76da7f798d2f72ceefa2eb074c660281eec3"
   }
 }
