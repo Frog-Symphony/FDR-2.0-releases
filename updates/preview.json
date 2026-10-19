@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.4.1",
-  "notes": "修复原生客户端普通启动无法检查更新的问题。\n\n- 为原生更新器补上正式默认更新源，启动检查、每 6 小时检查和手动检查均使用公开清单；保留显式测试源覆盖。\n- 包含主线已提交的鼠标／触控板滚动兼容修复。\n- Windows x64 正式版，保留 FDRData 和已下载游戏。\n\n旧版 2.3.0／2.4.0 自身缺少默认更新源：请完整退出旧客户端后，在程序目录运行 `FDR.exe --native-update-feed https://frog-symphony.github.io/FDR-2.0-releases/updates/preview.json`，再检查更新；也可直接下载整包，退出旧版后保留 FDRData 升级。安装 2.4.1 后普通启动即可检查更新，无需该参数。\n\n源码提交：3f04880b6b46f0c7643deb07307f926600702a65。\n\n已通过默认源／显式覆盖回归、Qt真实滚轮处理器回归、发布工具测试及Rust核心／Qt Release构建。发行包的升级、健康重启和公网校验结果见项目验收记录；Linux和用户实体触控板设备范围沿用既有说明。",
-  "published_at": "2026-10-18T13:43:13Z",
+  "version": "2.4.2",
+  "notes": "修复随机游戏推荐中封面加载失败后，点击重试却打开游戏详情的问题。\n\n同时优化搜索结果较少时的卡片尺寸、新收录游戏的最近更新排序，以及常驻滚动条的显示与交互配色。\n\nWindows x64 便携版；解压后运行 FDR.exe。正式数据保存在程序旁 FDRData。Linux 尚未实机验收。\n\n源码提交：9e00ab262f08b3534a058d77494704d7e5809179。\n已通过五种载体样式的重试／详情点击回归及Windows Release构建。本次未改更新器，不重复完整更新回退矩阵；未扩验Linux与实体输入设备。",
+  "published_at": "2026-10-19T14:58:20Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.4.1/FDR-2.4.1-windows-x64.zip",
-  "size": 46017826,
-  "sha256": "d6ba7f8afc429d5398c7f2586f2e9c5a6c2d3b50853b3009f661b1050dc91a90",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.4.2/FDR-2.4.2-windows-x64.zip",
+  "size": 46021300,
+  "sha256": "52ce44a1e005125d28ffdaffeb1cab8df46985e3dd956a6d2bb44c6d162348d2",
   "delta": {
     "schema": 1,
-    "from_version": "2.3.0",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.4.1/FDR-2.4.1-windows-x64-delta.zip",
-    "size": 12012827,
-    "sha256": "29f9221b8d415145ec637ef3ec1c76da7f798d2f72ceefa2eb074c660281eec3"
+    "from_version": "2.4.1",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.4.2/FDR-2.4.2-windows-x64-delta.zip",
+    "size": 12016301,
+    "sha256": "857bf50008a787c1aa80072c6ba31fa745d1745a1aeb2ac830735a5fdc36c23f"
   }
 }
