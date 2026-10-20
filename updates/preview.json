@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.4.3",
-  "notes": "修复点击“退出并更新”后客户端没有退出、手动重启仍停留在旧版的严重问题。\n\n- 统一正式数据目录 FDRData 与更新安装器的校验，恢复更新就绪、退出、替换和自动重启流程。\n- 增加安装器启动进度、失败日志与明确错误提示，更新记录或授权写入失败时停止安装。\n- 加强整包与增量更新的数据目录保护，保留个人数据、游戏及下载记录。\n\n如果旧版仍显示 2.4.2 更新已就绪，请先点击“检查更新”，重新下载 2.4.3 后再选择“退出并更新”；也可下载整包覆盖安装，保留 FDRData。\n\nWindows x64 便携版；解压运行 FDR.exe。Linux 尚未实机验收。\n\n源码提交：47fe8dce0e9ad091564e1078c38bc43fbfa8c550。\n\n验证：124 项核心测试、26 项更新相关工具检查（另 1 项平台跳过）、Qt CTest 2/2、严格 Clippy 与格式检查；真实 Qt 整包／增量退出安装和健康重启、QML 初始化失败自动回退、正式与隔离数据目录保护均已通过。未扩验 Linux、其他历史基准及真实账号传输。",
-  "published_at": "2026-10-20T00:41:23Z",
+  "version": "2.5.0",
+  "notes": "# FDR 2.5.0\n\n- 在“设置 → 外观与操作”中新增“千禧风格”皮肤选项；经典外观继续保留并作为默认皮肤。\n- 皮肤选择会立即生效并保存在程序数据目录，可随时切换回经典外观。\n- 千禧主题覆盖原生 Qt 客户端的控件和面板外观，不改变目录、下载、个人库等页面结构与流程。\n\nWindows x64 便携版。\n\n源码提交：68188e70788574bd4807fb2ce10e5aa8d27e1872。",
+  "published_at": "2026-10-20T06:50:23Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.4.3/FDR-2.4.3-windows-x64.zip",
-  "size": 46019882,
-  "sha256": "25d5486d5daa30f646277ec4845558fd603aed9a8192bac285a45e703f547334",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.5.0/FDR-2.5.0-windows-x64.zip",
+  "size": 46529959,
+  "sha256": "6458122bdb1074d03c5ee38dc9ab16ae96973eceef472ef244a8a772d5305f4e",
   "delta": {
     "schema": 1,
-    "from_version": "2.4.2",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.4.3/FDR-2.4.3-windows-x64-delta.zip",
-    "size": 12018337,
-    "sha256": "3d48061f3f611733fe95e06e3ea02dcf16bf0ee84aabcffbdeaf187deeba1935"
+    "from_version": "2.4.3",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.5.0/FDR-2.5.0-windows-x64-delta.zip",
+    "size": 12524912,
+    "sha256": "d1a359356ac536c9abde1aa2e8ed4666a851d829cb04009ef0d60bb116720ee3"
   }
 }
