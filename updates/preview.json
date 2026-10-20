@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.5.0",
-  "notes": "# FDR 2.5.0\n\n- 在“设置 → 外观与操作”中新增“千禧风格”皮肤选项；经典外观继续保留并作为默认皮肤。\n- 皮肤选择会立即生效并保存在程序数据目录，可随时切换回经典外观。\n- 千禧主题覆盖原生 Qt 客户端的控件和面板外观，不改变目录、下载、个人库等页面结构与流程。\n\nWindows x64 便携版。\n\n源码提交：68188e70788574bd4807fb2ce10e5aa8d27e1872。",
-  "published_at": "2026-10-20T06:50:23Z",
+  "version": "2.6.0",
+  "notes": "# FDR 2.6.0\n\n- 新增“黑客”和“PC-98”两款可选皮肤；经典外观继续为默认，千禧风格继续保留。\n- 在“设置 → 外观与操作 → 界面皮肤”中切换四款外观，选择立即生效并自动保存。\n- 本地预览中的“马拉松”正式更名为“黑客”，保留原偏好值兼容已有选择。\n- 黑客采用近黑绿工业面板与荧光绿信号；PC-98 采用深蓝双线窗口、洋红／青色和像素标题。深色图标适配主题，游戏封面保持原色。\n\nWindows 10/11 x64 便携版。源码提交：aab6775b32255860373acca7fa853b3f7e99f647。\n\n验证范围：Release 构建、便携包 CRC、解压启动、两款新增皮肤的真实 Qt 窗口双尺寸捕获，以及发行工具测试（26 项通过、1 项按平台条件跳过）。更新器未修改，按项目分级规则未重复完整升级／回退矩阵。\n\n限制：隔离库没有安装和活跃任务；Linux、非空个人库／云存档、手柄、高 DPI 以及实际鼠标下拉切换和切换后的写回尚未完成自动验收。Windows 会话拒绝自动点击，未将实窗捕获等同于鼠标操作通过。",
+  "published_at": "2026-10-20T10:44:07Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.5.0/FDR-2.5.0-windows-x64.zip",
-  "size": 46529959,
-  "sha256": "6458122bdb1074d03c5ee38dc9ab16ae96973eceef472ef244a8a772d5305f4e",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.6.0/FDR-2.6.0-windows-x64.zip",
+  "size": 46508354,
+  "sha256": "c75773c26b4fa3dccdd574e0d94853942d54830dc68e0fdb9f8015e7b77629c5",
   "delta": {
     "schema": 1,
-    "from_version": "2.4.3",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.5.0/FDR-2.5.0-windows-x64-delta.zip",
-    "size": 12524912,
-    "sha256": "d1a359356ac536c9abde1aa2e8ed4666a851d829cb04009ef0d60bb116720ee3"
+    "from_version": "2.5.0",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.6.0/FDR-2.6.0-windows-x64-delta.zip",
+    "size": 12503307,
+    "sha256": "6544f32456c93d477efa00c09aad6a03f41d5a0aa4246a883d41abcf57483e67"
   }
 }
