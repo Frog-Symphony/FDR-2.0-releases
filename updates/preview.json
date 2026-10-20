@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.6.1",
-  "notes": "修复游戏分类显示：目录以 PlayZip 的 13 个分类为准；R18+ 和局域网联机归入未分类；天翼云资源按对应 PlayZip 类型重新归类。",
-  "published_at": "2026-10-20T13:51:24Z",
+  "version": "2.6.2",
+  "notes": "修复减少动效模式下游戏启动遮罩（含媒体底座）短暂闪现的问题。减少动效时直接进入启动提交，不绘制临时演出画面。",
+  "published_at": "2026-10-20T16:36:33Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.6.1/FDR-2.6.1-windows-x64.zip",
-  "size": 46514159,
-  "sha256": "9e20f7155acd8b11d93990933b00e7bfcde5768482b5b47dcfffa9088f0cd23d",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.6.2/FDR-2.6.2-windows-x64.zip",
+  "size": 46571831,
+  "sha256": "0ac3e6baeaf7c8ba13940fc5a372ded053b9d4a839f768a0b8a0eecd7459d5fe",
   "delta": {
     "schema": 1,
-    "from_version": "2.6.0",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.6.1/FDR-2.6.1-windows-x64-delta.zip",
-    "size": 10414710,
-    "sha256": "a7ca491ed96e3ff078223b0c5d6f6b95626cba861c420c7ca1f97ea4c9a1b004"
+    "from_version": "2.6.1",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.6.2/FDR-2.6.2-windows-x64-delta.zip",
+    "size": 12566788,
+    "sha256": "ca9c034e64a047ff64c54eef7eb7338ac0496422a04f9160ab6939ea7535b686"
   }
 }
