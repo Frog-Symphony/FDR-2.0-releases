@@ -8,7 +8,8 @@
 
 [下载最新正式版](https://github.com/Frog-Symphony/FDR-2.0-releases/releases/latest) · [查看全部版本](https://github.com/Frog-Symphony/FDR-2.0-releases/releases) · [浏览在线目录](https://frog-symphony.github.io/FDR-2.0-releases/)
 
-**当前正式版 2.6.0 · Windows 10 / 11 x64 · Qt Quick 原生客户端 · 便携 ZIP**
+**当前正式版 2.6.1 · Windows 10 / 11 x64 · Qt Quick 原生客户端 · 便携 ZIP**
+本版统一游戏分类：按 PlayZip 的 13 个分类展示；R18+ 和局域网联机归入未分类；天翼云资源映射到对应类型。
 
 </div>
 
