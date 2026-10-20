@@ -8,7 +8,7 @@
 
 [下载最新正式版](https://github.com/Frog-Symphony/FDR-2.0-releases/releases/latest) · [查看全部版本](https://github.com/Frog-Symphony/FDR-2.0-releases/releases) · [浏览在线目录](https://frog-symphony.github.io/FDR-2.0-releases/)
 
-**当前正式版 2.5.0 · Windows 10 / 11 x64 · Qt Quick 原生客户端 · 便携 ZIP**
+**当前正式版 2.6.0 · Windows 10 / 11 x64 · Qt Quick 原生客户端 · 便携 ZIP**
 
 </div>
 
@@ -18,7 +18,7 @@ FDR 把游戏发现、下载与安装、个人游戏库和本地数据保护放�
 
 ## 界面预览
 
-以下截图来自 Windows x64 正式客户端 2.5.0 的真实窗口捕获。目录内容会随版本更新；外部下载来源和云服务是否可用取决于网络与账号状态。
+以下截图来自 Windows x64 正式客户端的真实窗口捕获。目录、经典、千禧与网络设置保留 2.5.0 截图；新增黑客和 PC-98 预览来自 2.6.0。目录内容会随版本更新；外部下载来源和云服务是否可用取决于网络与账号状态。
 
 <p align="center">
   <img src="assets/screenshots/fdr-2.5.0-catalog.png" alt="FDR 2.5.0 的游戏目录页面" width="900">
@@ -35,6 +35,23 @@ FDR 把游戏发现、下载与安装、个人游戏库和本地数据保护放�
     <td width="50%" align="center">
       <img src="assets/screenshots/fdr-2.5.0-millennium.png" alt="FDR 2.5.0 千禧风格设置" width="100%">
       <br><sub>千禧风格：可选的复古像素界面。</sub>
+    </td>
+  </tr>
+</table>
+
+## 四款可切换皮肤
+
+在 **设置 → 外观与操作 → 界面皮肤** 中选择经典外观、千禧风格、黑客或 PC-98。经典为默认，选择立即生效并自动保存，游戏封面保持原色。黑客为本地预览“马拉松”的新名称，已有选择继续兼容。
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/fdr-2.6.0-hacker.png" alt="FDR 2.6.0 黑客皮肤设置" width="100%">
+      <br><sub>黑客：暗绿工业面板与荧光绿信号。</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/fdr-2.6.0-pc98.png" alt="FDR 2.6.0 PC-98 皮肤设置" width="100%">
+      <br><sub>PC-98：深蓝双线窗口、洋红与青色、像素标题。</sub>
     </td>
   </tr>
 </table>
@@ -56,7 +73,7 @@ FDR 把游戏发现、下载与安装、个人游戏库和本地数据保护放�
 | **客户端更新** | 在应用内查看版本说明并下载更新；按条件使用增量包或完整包，替换程序前由你确认退出。 |
 | **数据与存档备份** | 创建和检查本地备份，恢复应用数据；将已明确配置的游戏存档纳入备份，恢复时确认目标位置和冲突处理。 |
 | **天翼云盘接入** | 提供账号登录、分享文件下载、云存档和云备份入口。真实账号传输与远端恢复仍在验证，详见下方支持范围。 |
-| **个性化设置** | 切换经典外观或千禧风格，调整下载、窗口、网络与代理、启动音效和动态效果。 |
+| **个性化设置** | 切换经典外观、千禧风格、黑客或 PC-98，调整下载、窗口、网络与代理、启动音效和动态效果。 |
 
 FDR 管理目录、任务和你的本机游戏库。游戏文件从对应外部来源下载，不由本发行仓库托管或中转。
 
