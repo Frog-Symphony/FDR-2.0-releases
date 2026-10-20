@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.4.2",
-  "notes": "修复随机游戏推荐中封面加载失败后，点击重试却打开游戏详情的问题。\n\n同时优化搜索结果较少时的卡片尺寸、新收录游戏的最近更新排序，以及常驻滚动条的显示与交互配色。\n\nWindows x64 便携版；解压后运行 FDR.exe。正式数据保存在程序旁 FDRData。Linux 尚未实机验收。\n\n源码提交：9e00ab262f08b3534a058d77494704d7e5809179。\n已通过五种载体样式的重试／详情点击回归及Windows Release构建。本次未改更新器，不重复完整更新回退矩阵；未扩验Linux与实体输入设备。",
-  "published_at": "2026-10-19T14:58:20Z",
+  "version": "2.4.3",
+  "notes": "修复点击“退出并更新”后客户端没有退出、手动重启仍停留在旧版的严重问题。\n\n- 统一正式数据目录 FDRData 与更新安装器的校验，恢复更新就绪、退出、替换和自动重启流程。\n- 增加安装器启动进度、失败日志与明确错误提示，更新记录或授权写入失败时停止安装。\n- 加强整包与增量更新的数据目录保护，保留个人数据、游戏及下载记录。\n\n如果旧版仍显示 2.4.2 更新已就绪，请先点击“检查更新”，重新下载 2.4.3 后再选择“退出并更新”；也可下载整包覆盖安装，保留 FDRData。\n\nWindows x64 便携版；解压运行 FDR.exe。Linux 尚未实机验收。\n\n源码提交：47fe8dce0e9ad091564e1078c38bc43fbfa8c550。\n\n验证：124 项核心测试、26 项更新相关工具检查（另 1 项平台跳过）、Qt CTest 2/2、严格 Clippy 与格式检查；真实 Qt 整包／增量退出安装和健康重启、QML 初始化失败自动回退、正式与隔离数据目录保护均已通过。未扩验 Linux、其他历史基准及真实账号传输。",
+  "published_at": "2026-10-20T00:41:23Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.4.2/FDR-2.4.2-windows-x64.zip",
-  "size": 46021300,
-  "sha256": "52ce44a1e005125d28ffdaffeb1cab8df46985e3dd956a6d2bb44c6d162348d2",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.4.3/FDR-2.4.3-windows-x64.zip",
+  "size": 46019882,
+  "sha256": "25d5486d5daa30f646277ec4845558fd603aed9a8192bac285a45e703f547334",
   "delta": {
     "schema": 1,
-    "from_version": "2.4.1",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.4.2/FDR-2.4.2-windows-x64-delta.zip",
-    "size": 12016301,
-    "sha256": "857bf50008a787c1aa80072c6ba31fa745d1745a1aeb2ac830735a5fdc36c23f"
+    "from_version": "2.4.2",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.4.3/FDR-2.4.3-windows-x64-delta.zip",
+    "size": 12018337,
+    "sha256": "3d48061f3f611733fe95e06e3ea02dcf16bf0ee84aabcffbdeaf187deeba1935"
   }
 }
