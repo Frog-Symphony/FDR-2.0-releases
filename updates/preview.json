@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.6.2",
-  "notes": "修复减少动效模式下游戏启动遮罩（含媒体底座）短暂闪现的问题。减少动效时直接进入启动提交，不绘制临时演出画面。",
-  "published_at": "2026-10-20T16:36:33Z",
+  "version": "2.7.0",
+  "notes": "FDR 2.7.0\n\n- 下载页面显示实时传输速度，按约 1.5 秒的任务数据采样计算。\n- 对支持字节范围、提供强 ETag 且不小于 32 MiB 的文件，使用最多 4 路并发分段传输；暂停或中断后可按已落盘分段续传，完成后校验并合并。\n- 不满足分段条件时保持单流下载。单个游戏任务并发限制保持不变；分段继续遵循 PlayZip／天翼云各自已配置的网络和代理规则。\n- 改进下载中断、分段恢复和失效链接的任务恢复处理。",
+  "published_at": "2026-10-21T03:01:57Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.6.2/FDR-2.6.2-windows-x64.zip",
-  "size": 46571831,
-  "sha256": "0ac3e6baeaf7c8ba13940fc5a372ded053b9d4a839f768a0b8a0eecd7459d5fe",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.7.0/FDR-2.7.0-windows-x64.zip",
+  "size": 46696175,
+  "sha256": "58dbf5be50e31de3f595b5c1e4ef799d9fcd86d740fb1be841a551d17ee78808",
   "delta": {
     "schema": 1,
-    "from_version": "2.6.1",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.6.2/FDR-2.6.2-windows-x64-delta.zip",
-    "size": 12566788,
-    "sha256": "ca9c034e64a047ff64c54eef7eb7338ac0496422a04f9160ab6939ea7535b686"
+    "from_version": "2.6.2",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.7.0/FDR-2.7.0-windows-x64-delta.zip",
+    "size": 12691129,
+    "sha256": "2791c29f2c0d72f82c5a410c729bf40e1ef7f417baf9f01c85da2cd6879a35e2"
   }
 }
