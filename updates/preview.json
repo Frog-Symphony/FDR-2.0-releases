@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.7.0",
-  "notes": "FDR 2.7.0\n\n- 下载页面显示实时传输速度，按约 1.5 秒的任务数据采样计算。\n- 对支持字节范围、提供强 ETag 且不小于 32 MiB 的文件，使用最多 4 路并发分段传输；暂停或中断后可按已落盘分段续传，完成后校验并合并。\n- 不满足分段条件时保持单流下载。单个游戏任务并发限制保持不变；分段继续遵循 PlayZip／天翼云各自已配置的网络和代理规则。\n- 改进下载中断、分段恢复和失效链接的任务恢复处理。",
-  "published_at": "2026-10-21T03:01:57Z",
+  "version": "2.7.1",
+  "notes": "FDR 2.7.1\n\n- 修复同一游戏可重复创建下载任务、重复安装到多个目录的问题；已有任务请在下载管理中继续或移除。\n- 全部游戏和收藏目录显示“已下载”“已有下载任务”或“下载更新”，已下载及已有任务时禁用重复下载。\n- 来源版本可确认高于本地时，更新安装回原目录，保留安装记录、游玩时长和本地新增／修改文件；更新前保留旧目录备份。\n- 新安装记录版本及发行文件基线。旧安装缺少可信版本或文件基线时不自动判定可更新，不推测历史版本；现有重复目录不自动删除。\n- 修复个人库卡带排列和窗口宽度适配，长标题可悬停滚动。\n\n验证：136 项核心测试、严格 Clippy 与格式检查，14 项真实本机接口检查、两尺寸 10 项 Qt 状态检查通过。Linux、真实来源游戏升级及跨物理盘更新尚未扩验。\n\n源码提交：dd9285be52ee11a914ffba40b4514a35c2b2af50（主仓库标签 v2.7.1）。",
+  "published_at": "2026-10-23T00:38:43Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.7.0/FDR-2.7.0-windows-x64.zip",
-  "size": 46696175,
-  "sha256": "58dbf5be50e31de3f595b5c1e4ef799d9fcd86d740fb1be841a551d17ee78808",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.7.1/FDR-2.7.1-windows-x64.zip",
+  "size": 46783432,
+  "sha256": "f3cdd86ceb29078d0bc3494511aabe7d7818ab36c0132b28d03c2cd5fae8ff66",
   "delta": {
     "schema": 1,
-    "from_version": "2.6.2",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.7.0/FDR-2.7.0-windows-x64-delta.zip",
-    "size": 12691129,
-    "sha256": "2791c29f2c0d72f82c5a410c729bf40e1ef7f417baf9f01c85da2cd6879a35e2"
+    "from_version": "2.7.0",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.7.1/FDR-2.7.1-windows-x64-delta.zip",
+    "size": 12778387,
+    "sha256": "96b71dff7dee1a28f535d75bfd98dc44d92afe5b1f81dd4203c989580d19042e"
   }
 }
