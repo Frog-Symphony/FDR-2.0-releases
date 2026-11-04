@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.7.1",
-  "notes": "FDR 2.7.1\n\n- 修复同一游戏可重复创建下载任务、重复安装到多个目录的问题；已有任务请在下载管理中继续或移除。\n- 全部游戏和收藏目录显示“已下载”“已有下载任务”或“下载更新”，已下载及已有任务时禁用重复下载。\n- 来源版本可确认高于本地时，更新安装回原目录，保留安装记录、游玩时长和本地新增／修改文件；更新前保留旧目录备份。\n- 新安装记录版本及发行文件基线。旧安装缺少可信版本或文件基线时不自动判定可更新，不推测历史版本；现有重复目录不自动删除。\n- 修复个人库卡带排列和窗口宽度适配，长标题可悬停滚动。\n\n验证：136 项核心测试、严格 Clippy 与格式检查，14 项真实本机接口检查、两尺寸 10 项 Qt 状态检查通过。Linux、真实来源游戏升级及跨物理盘更新尚未扩验。\n\n源码提交：dd9285be52ee11a914ffba40b4514a35c2b2af50（主仓库标签 v2.7.1）。",
-  "published_at": "2026-10-23T00:38:43Z",
+  "version": "2.8.0",
+  "notes": "## 更新内容\n\n- 修复目录默认“全部分类”使用“最近更新”时没有跨分类混排的问题；新收录的 PlayZip 游戏按来源修改时间与首次导入时间中较晚者参与全局排序，分类筛选仍保持来源分类顺序。\n- 下载设置新增闲时下载时段；并发下载最多 3 个任务，满足条件的大文件可使用最多 16 路分段下载，IPv6 默认关闭。\n- 个人库新增“通关”归档页与通关徽标；移除安装记录时可选择删除安装目录，并补充失效安装提示与目录修复入口。\n- 改进目录状态提示、目录更新后的列表刷新，以及下载任务的批量操作。\n\n## 验证范围\n\nWindows x64 Release 便携包。Linux 版本仍按项目计划暂缓。",
+  "published_at": "2026-11-04T16:06:13Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.7.1/FDR-2.7.1-windows-x64.zip",
-  "size": 46783432,
-  "sha256": "f3cdd86ceb29078d0bc3494511aabe7d7818ab36c0132b28d03c2cd5fae8ff66",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.8.0/FDR-2.8.0-windows-x64.zip",
+  "size": 48182584,
+  "sha256": "79a698c32ff2072eb2815e2a0bd825f19ce3a3b16db722b07ccef79406e203ab",
   "delta": {
     "schema": 1,
-    "from_version": "2.7.0",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.7.1/FDR-2.7.1-windows-x64-delta.zip",
-    "size": 12778387,
-    "sha256": "96b71dff7dee1a28f535d75bfd98dc44d92afe5b1f81dd4203c989580d19042e"
+    "from_version": "2.7.1",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.8.0/FDR-2.8.0-windows-x64-delta.zip",
+    "size": 14177538,
+    "sha256": "3c56bd3a465a8efe888b9f7b90b7e852d913f0b4ebd626bc82cdcbbafb19d7b7"
   }
 }
