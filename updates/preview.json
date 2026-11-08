@@ -2,19 +2,12 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.8.0",
-  "notes": "## 更新内容\n\n- 修复目录默认“全部分类”使用“最近更新”时没有跨分类混排的问题；新收录的 PlayZip 游戏按来源修改时间与首次导入时间中较晚者参与全局排序，分类筛选仍保持来源分类顺序。\n- 下载设置新增闲时下载时段；并发下载最多 3 个任务，满足条件的大文件可使用最多 16 路分段下载，IPv6 默认关闭。\n- 个人库新增“通关”归档页与通关徽标；移除安装记录时可选择删除安装目录，并补充失效安装提示与目录修复入口。\n- 改进目录状态提示、目录更新后的列表刷新，以及下载任务的批量操作。\n\n## 验证范围\n\nWindows x64 Release 便携包。Linux 版本仍按项目计划暂缓。",
-  "published_at": "2026-11-04T16:06:13Z",
+  "version": "2.8.1",
+  "notes": "# FDR 2.8.1\n\n## 修复\n\n- 下载任务检测到来源不支持安全续传，或续传响应与已有文件片段不一致时，会清理旧临时数据并自动从头重试一次。来源没有强 ETag 时仍从 0 开始，避免把不同版本的数据拼在一起。\n- 暂停或失败的 PlayZip 下载继续时先复用仍有效的缓存签名链接，减少重复访问来源页面而触发限流；链接缺失或失效时再进入现有的自动取链与退避流程。\n- “需要从头下载”的任务明确显示“从头继续”。",
+  "published_at": "2026-11-08T16:34:15Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.8.0/FDR-2.8.0-windows-x64.zip",
-  "size": 48182584,
-  "sha256": "79a698c32ff2072eb2815e2a0bd825f19ce3a3b16db722b07ccef79406e203ab",
-  "delta": {
-    "schema": 1,
-    "from_version": "2.7.1",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.8.0/FDR-2.8.0-windows-x64-delta.zip",
-    "size": 14177538,
-    "sha256": "3c56bd3a465a8efe888b9f7b90b7e852d913f0b4ebd626bc82cdcbbafb19d7b7"
-  }
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.8.1/FDR-2.8.1-windows-x64.zip",
+  "size": 48178767,
+  "sha256": "d5fae4d6c42d6556d019bc80b3e9ceceaf6f8631a47ec17ff98ff51c9dfd28d2"
 }
