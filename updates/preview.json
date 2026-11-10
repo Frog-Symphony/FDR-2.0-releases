@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.8.1",
-  "notes": "# FDR 2.8.1\n\n## 修复\n\n- 下载任务检测到来源不支持安全续传，或续传响应与已有文件片段不一致时，会清理旧临时数据并自动从头重试一次。来源没有强 ETag 时仍从 0 开始，避免把不同版本的数据拼在一起。\n- 暂停或失败的 PlayZip 下载继续时先复用仍有效的缓存签名链接，减少重复访问来源页面而触发限流；链接缺失或失效时再进入现有的自动取链与退避流程。\n- “需要从头下载”的任务明确显示“从头继续”。",
-  "published_at": "2026-11-08T16:34:15Z",
+  "version": "2.9.1",
+  "notes": "# FDR 2.9.1\n\n- 在个人游戏库的右键菜单中增加“打开安装目录”，可直接在系统文件管理器中查看已安装游戏目录。\n- 增加 R18+ 分类显示控制，保持默认隐藏，并支持临时或长期解锁。\n- 提升目录发布可靠性：无效分页重试后再停止发布；替换 Steam 应用编号需明确提供新编号。\n- 改善 Qt 客户端对可选游戏图标与来源错误的处理。",
+  "published_at": "2026-11-10T02:37:58Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.8.1/FDR-2.8.1-windows-x64.zip",
-  "size": 48178767,
-  "sha256": "d5fae4d6c42d6556d019bc80b3e9ceceaf6f8631a47ec17ff98ff51c9dfd28d2"
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.9.1/FDR-2.9.1-windows-x64.zip",
+  "size": 48196913,
+  "sha256": "e136b8dd5fbcff79a9dc53c70da465bd6d716ef1cf1de15d840f332805f5462b"
 }
