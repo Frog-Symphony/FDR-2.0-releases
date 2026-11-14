@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.9.1",
-  "notes": "# FDR 2.9.1\n\n- 在个人游戏库的右键菜单中增加“打开安装目录”，可直接在系统文件管理器中查看已安装游戏目录。\n- 增加 R18+ 分类显示控制，保持默认隐藏，并支持临时或长期解锁。\n- 提升目录发布可靠性：无效分页重试后再停止发布；替换 Steam 应用编号需明确提供新编号。\n- 改善 Qt 客户端对可选游戏图标与来源错误的处理。",
-  "published_at": "2026-11-10T02:37:58Z",
+  "version": "2.10.0",
+  "notes": "## FDR 2.10.0 for Windows x64\n\nThis release adds a unified download scheduler in Rust Core. Source-link resolution, retry timing, source cooldowns, and transfer slots now share persistent task state. Stale resolver results are rejected, and the task list explains why a download is waiting.\n\nThe Windows x64 client is provided as a portable ZIP. Linux packages are not part of this release.",
+  "published_at": "2026-11-14T01:02:59Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.9.1/FDR-2.9.1-windows-x64.zip",
-  "size": 48196913,
-  "sha256": "e136b8dd5fbcff79a9dc53c70da465bd6d716ef1cf1de15d840f332805f5462b"
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.10.0/FDR-2.10.0-windows-x64.zip",
+  "size": 48262418,
+  "sha256": "3802acf9c4c791038dcf798eadf82697ba9c62c64232ce4ca2be91aa5bbf2720"
 }
