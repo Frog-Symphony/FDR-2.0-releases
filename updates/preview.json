@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.10.0",
-  "notes": "## FDR 2.10.0 Windows x64 正式版\n\n本版本在 Rust Core 中新增统一下载队列调度，将 PlayZip 来源链接获取、重试时间、来源冷却和下载传输名额纳入持久化任务状态。系统会拒绝过期的取链结果，并在任务列表说明下载等待原因。\n\n本次提供 Windows x64 便携 ZIP，未提供 Linux 安装包。",
-  "published_at": "2026-11-14T01:04:28Z",
+  "version": "2.10.1",
+  "notes": "修复个人游戏库未按 R18+ 显示模式隐藏或恢复游戏的问题，并在个人库与已安装游戏更新列表中标示 R18+ 游戏。",
+  "published_at": "2026-11-14T02:09:09Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.10.0/FDR-2.10.0-windows-x64.zip",
-  "size": 48262418,
-  "sha256": "3802acf9c4c791038dcf798eadf82697ba9c62c64232ce4ca2be91aa5bbf2720"
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.10.1/FDR-2.10.1-windows-x64.zip",
+  "size": 48294004,
+  "sha256": "8d0efeb0d19b9673d88747c01f3d535c352be46bf53a5ae52660d1b5f913e510"
 }
