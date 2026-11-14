@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.10.1",
-  "notes": "修复个人游戏库未按 R18+ 显示模式隐藏或恢复游戏的问题，并在个人库与已安装游戏更新列表中标示 R18+ 游戏。",
-  "published_at": "2026-11-14T02:09:09Z",
+  "version": "2.10.2",
+  "notes": "修复个人游戏库中 R18+ 标记独占一行的问题。R18+ 标记现在叠加在封面左上角；图标与列表视图叠加在封面缩略图左上角。已通关的 R18+ 游戏会把通关标记放在缩略图底部，避免遮挡。",
+  "published_at": "2026-11-14T04:22:59Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.10.1/FDR-2.10.1-windows-x64.zip",
-  "size": 48294004,
-  "sha256": "8d0efeb0d19b9673d88747c01f3d535c352be46bf53a5ae52660d1b5f913e510"
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.10.2/FDR-2.10.2-windows-x64.zip",
+  "size": 48304000,
+  "sha256": "d5ad8d45fc69b9f8cd428ad1ad6cfbd2172f3817b6514bc95d1e1a94b40dc76c"
 }
