@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.12.0",
-  "notes": "# FDR 2.12.0\n\n新增下载历史筛选，成功下载过的游戏在任务清理后仍可查找；个人游戏库增加分类筛选。可选择记忆目录与个人库的筛选、排序和视图状态，并在重启后恢复。\n\nexe 使用经典品牌 Logo；窗口、任务栏和托盘图标随当前皮肤切换，侧栏品牌区显示对应配色的 Logo。",
-  "published_at": "2026-11-15T12:45:02Z",
+  "version": "2.12.1",
+  "notes": "# FDR 2.12.1\n\n- 修复窄窗口的侧栏品牌布局：空间不足时隐藏图形 Logo，保留 F.D.R 文字和徽标。\n- “我的游戏”的筛选项连同标签一起换行；排序框按最长选项定宽，游玩时长输入框右缘与说明对齐。\n- 短暂的游戏目录读取错误不再闪现；更新页缺少发行信息时不再显示空字段。\n\nWindows x64 提供完整便携包，以及供 2.12.0 使用的文件级增量包。下载完整包后请先解压整个目录，再运行其中的 FDR.exe。",
+  "published_at": "2026-11-15T13:31:37Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.12.0/FDR-2.12.0-windows-x64.zip",
-  "size": 48191371,
-  "sha256": "afcf0dca94cd3691c5cc56a2be7ee40b05f07e6de65dcc355fec5157092889a0",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.12.1/FDR-2.12.1-windows-x64.zip",
+  "size": 48199691,
+  "sha256": "a715ce7766a5987d23d1fed0292321727c710ec7d6ecf2941f9395976e9b1cd2",
   "delta": {
     "schema": 1,
-    "from_version": "2.11.3",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.12.0/FDR-2.12.0-windows-x64-delta.zip",
-    "size": 14174904,
-    "sha256": "c22abf5a29bbd14b033956d10350e3d06f328e72833ace91afb4a870473def45"
+    "from_version": "2.12.0",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.12.1/FDR-2.12.1-windows-x64-delta.zip",
+    "size": 14183225,
+    "sha256": "211d2e90e7dbbd37b031d3f6334c25104421609617132adb1e700dcc8aed9334"
   }
 }
