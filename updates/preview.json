@@ -2,12 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.10.2",
-  "notes": "修复个人游戏库中 R18+ 标记独占一行的问题。R18+ 标记现在叠加在封面左上角；图标与列表视图叠加在封面缩略图左上角。已通关的 R18+ 游戏会把通关标记放在缩略图底部，避免遮挡。",
-  "published_at": "2026-11-14T04:22:59Z",
+  "version": "2.11.0",
+  "notes": "新增跨来源下载并发设置，可在 1、2、3 项之间选择，默认保持 1。PlayZip 取链改由 Rust Core 统一调度，并与天翼云下载共用全局名额。\n\n提高并发后的真实来源长期稳定性和双文件 SHA-256 验收仍在进行；详见项目的验收记录。",
+  "published_at": "2026-11-15T03:57:36Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.10.2/FDR-2.10.2-windows-x64.zip",
-  "size": 48304000,
-  "sha256": "d5ad8d45fc69b9f8cd428ad1ad6cfbd2172f3817b6514bc95d1e1a94b40dc76c"
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.11.0/FDR-2.11.0-windows-x64.zip",
+  "size": 48415377,
+  "sha256": "7549da15609723ff7016eea1615a680fcf0eeea3956387dc52f37db7a57534c4",
+  "delta": {
+    "schema": 1,
+    "from_version": "2.10.2",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.11.0/FDR-2.11.0-windows-x64-delta.zip",
+    "size": 16468893,
+    "sha256": "42e2d19771364414faa0dd6fbb1551f557c4429d6b6df36534c8d22560a2760c"
+  }
 }
