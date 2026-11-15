@@ -10,7 +10,7 @@
 
 [下载最新正式版](https://github.com/Frog-Symphony/FDR-2.0-releases/releases/latest) · [查看全部版本](https://github.com/Frog-Symphony/FDR-2.0-releases/releases) · [浏览在线目录](https://frog-symphony.github.io/FDR-2.0-releases/)
 
-**当前正式版 [2.11.3](https://github.com/Frog-Symphony/FDR-2.0-releases/releases/tag/v2.11.3) · Windows 10 / 11 x64 · Qt Quick 原生客户端 · 便携 ZIP**
+**当前正式版 [2.12.0](https://github.com/Frog-Symphony/FDR-2.0-releases/releases/tag/v2.12.0) · Windows 10 / 11 x64 · Qt Quick 原生客户端 · 便携 ZIP**
 
 
 ## 界面预览
@@ -69,6 +69,7 @@
 | **个人游戏库** | 整理已安装游戏，以卡带、列表或图标视图浏览，设置启动文件、启动游戏并查看 FDR 记录的游玩时长。 |
 | **桌面与 Steam 整合** | 为游戏创建或管理快捷方式，将常用游戏纳入已有的启动习惯。桌面快捷方式自动创建由用户主动开启。 |
 | **客户端更新** | 在应用内查看版本说明并下载更新；按条件使用增量包或完整包，替换程序前由你确认退出。 |
+| **筛选与历史** | 查找曾成功下载的游戏、按个人库分类筛选，并可记忆目录与个人库的筛选、排序和视图状态。 |
 | **数据与存档备份** | 创建和检查本地备份，恢复应用数据；将已明确配置的游戏存档纳入备份，恢复时确认目标位置和冲突处理。 |
 | **天翼云盘接入** | 提供账号登录、分享文件下载、云存档和云备份入口。真实账号传输与远端恢复仍在验证，详见下方支持范围。 |
 | **个性化设置** | 切换经典外观、千禧风格、黑客或 PC-98，调整下载、窗口、网络与代理、启动音效和动态效果。 |
