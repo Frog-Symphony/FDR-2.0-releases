@@ -2,11 +2,15 @@
 
 <div align="center">
 
+<img src="assets/fdr-logo-classic.svg" alt="F.D.R 应用 Logo" width="88">
+
 **发现、下载、整理并启动你的 PC 游戏。**
 
 面向中文用户的桌面游戏目录、下载管理与个人游戏库
 
 [下载最新正式版](https://github.com/Frog-Symphony/FDR-2.0-releases/releases/latest) · [查看全部版本](https://github.com/Frog-Symphony/FDR-2.0-releases/releases) · [浏览在线目录](https://frog-symphony.github.io/FDR-2.0-releases/)
+
+**当前正式版 [2.11.3](https://github.com/Frog-Symphony/FDR-2.0-releases/releases/tag/v2.11.3) · Windows 10 / 11 x64 · Qt Quick 原生客户端 · 便携 ZIP**
 
 
 ## 界面预览
@@ -68,6 +72,7 @@
 | **数据与存档备份** | 创建和检查本地备份，恢复应用数据；将已明确配置的游戏存档纳入备份，恢复时确认目标位置和冲突处理。 |
 | **天翼云盘接入** | 提供账号登录、分享文件下载、云存档和云备份入口。真实账号传输与远端恢复仍在验证，详见下方支持范围。 |
 | **个性化设置** | 切换经典外观、千禧风格、黑客或 PC-98，调整下载、窗口、网络与代理、启动音效和动态效果。 |
+| **品牌图标** | exe 文件使用经典 Logo；窗口、任务栏、托盘和侧栏 Logo 跟随已选择的界面皮肤。 |
 
 FDR 管理目录、任务和你的本机游戏库。游戏文件从对应外部来源下载，不由本发行仓库托管或中转。
 
