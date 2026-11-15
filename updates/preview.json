@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.11.1",
-  "notes": "修复 Windows 系统代理兼容：Play 来源页面默认使用系统路由时，Rust Core 现在读取操作系统代理配置，恢复通过系统代理获取来源链接。",
-  "published_at": "2026-11-15T05:29:45Z",
+  "version": "2.11.2",
+  "notes": "修复创建下载任务后自动切换到下载任务页的问题。现在发起下载后会保留当前页面，成功后刷新任务列表。",
+  "published_at": "2026-11-15T08:15:55Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.11.1/FDR-2.11.1-windows-x64.zip",
-  "size": 48426068,
-  "sha256": "500a1c77f3946bcbb475b5201e29fa189614358e4352e0c22bba7c18f041a511",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.11.2/FDR-2.11.2-windows-x64.zip",
+  "size": 48427932,
+  "sha256": "a72aab1f7253e69f30531f541aa809d8d50e0e33a2af01487d9e991fef6bff56",
   "delta": {
     "schema": 1,
-    "from_version": "2.10.2",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.11.1/FDR-2.11.1-windows-x64-delta.zip",
-    "size": 16479584,
-    "sha256": "7df94dfeb40297ac432173750db612732a5db17d34f6aaad4fcd55811a492488"
+    "from_version": "2.11.1",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.11.2/FDR-2.11.2-windows-x64-delta.zip",
+    "size": 14411454,
+    "sha256": "6cc1c5a691ba91fe96ca8eeced58505dab725d9c62fc6a62aa05fc1119300394"
   }
 }
