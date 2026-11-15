@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.11.2",
-  "notes": "修复创建下载任务后自动切换到下载任务页的问题。现在发起下载后会保留当前页面，成功后刷新任务列表。",
-  "published_at": "2026-11-15T08:15:55Z",
+  "version": "2.11.3",
+  "notes": "# FDR 2.11.3\n\n本次更新统一了客户端品牌图标：exe 文件使用经典 Logo，窗口、任务栏和托盘图标根据当前界面皮肤切换。侧栏也显示与皮肤配色同步的 Logo，并调整了 Logo 与品牌文字、彩色条的对齐。\n\n这是兼容性界面修订，不改变用户数据格式和更新协议。",
+  "published_at": "2026-11-15T12:34:38Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.11.2/FDR-2.11.2-windows-x64.zip",
-  "size": 48427932,
-  "sha256": "a72aab1f7253e69f30531f541aa809d8d50e0e33a2af01487d9e991fef6bff56",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.11.3/FDR-2.11.3-windows-x64.zip",
+  "size": 48190870,
+  "sha256": "5cfba7d90250ee7eccb9226a30f89bef2c7826552a1f2ebad2aca79185417205",
   "delta": {
     "schema": 1,
-    "from_version": "2.11.1",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.11.2/FDR-2.11.2-windows-x64-delta.zip",
-    "size": 14411454,
-    "sha256": "6cc1c5a691ba91fe96ca8eeced58505dab725d9c62fc6a62aa05fc1119300394"
+    "from_version": "2.11.2",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.11.3/FDR-2.11.3-windows-x64-delta.zip",
+    "size": 16244373,
+    "sha256": "a282fbf14225188ace1386350f72db649e8aeca521e0a1f5f52f70ac82b8ca58"
   }
 }
