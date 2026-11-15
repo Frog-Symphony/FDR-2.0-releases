@@ -3,7 +3,7 @@
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
   "version": "2.11.1",
-  "notes": "修复 Windows 系统代理兼容：PlayZip 来源页面默认使用系统路由时，Rust Core 现在读取操作系统代理配置，恢复通过系统代理获取来源链接。",
+  "notes": "修复 Windows 系统代理兼容：Play 来源页面默认使用系统路由时，Rust Core 现在读取操作系统代理配置，恢复通过系统代理获取来源链接。",
   "published_at": "2026-11-15T05:29:45Z",
   "platform": "win32",
   "arch": "x64",
