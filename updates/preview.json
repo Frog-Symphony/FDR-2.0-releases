@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.12.2",
-  "notes": "# FDR 2.12.2\n\n- 「游戏载体样式」隐藏两款横版卡带，保留经典竖版卡带、透明光盘盒和基础封面。已有横版偏好仍可正常显示，直到手动切换。\n- 游戏卡带优先使用竖版封面，目录采集使用核验后的竖图，缺少竖图时由 Play 提供兜底。\n- 修正 R18+ 标签中文字的垂直对齐。\n\nWindows x64 提供完整便携包，以及供 2.12.1 使用的文件级增量包。下载完整包后请先解压整个目录，再运行其中的 FDR.exe。",
-  "published_at": "2026-11-15T14:47:31Z",
+  "version": "2.12.3",
+  "notes": "# FDR 2.12.3\n\n- 修复冷启动时 R18+ 显示状态变化可能触发的目录误报。核心就绪后再按当前显示状态加载目录。目录和窗口顶部错误持续 5 秒后才显示。\n- 统一「全部游戏」和「个人库」的右键菜单。「全部游戏」可通过右键直接使用下载、收藏、打开 Steam 商店和启动等已有操作。\n- 修复个人库定时刷新闪屏和游戏详情实机截图无法放大的问题。\n- 兼容 Steam 官方双语游戏标题，并修补部分非竖版目录封面。\n\nWindows x64 提供完整便携包，以及供 2.12.2 使用的文件级增量包。手动下载完整包后，请先解压整个目录，再运行 FDR.exe。",
+  "published_at": "2026-11-16T01:12:26Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.12.2/FDR-2.12.2-windows-x64.zip",
-  "size": 48338811,
-  "sha256": "cd8604d82cb684e1756770deda51175ffb471fa4f6dfa771fc4443ba6bce2306",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.12.3/FDR-2.12.3-windows-x64.zip",
+  "size": 48363329,
+  "sha256": "2fa62112f5f0700e5411ee0624828d619ce39b5d6d0b132ce2fc151da36f9a64",
   "delta": {
     "schema": 1,
-    "from_version": "2.12.1",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.12.2/FDR-2.12.2-windows-x64-delta.zip",
-    "size": 14846749,
-    "sha256": "c59bca36d26b26486b5809369a6648153fb784149deb203c054655c66270599b"
+    "from_version": "2.12.2",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.12.3/FDR-2.12.3-windows-x64-delta.zip",
+    "size": 14546606,
+    "sha256": "44dfc59e0d94d1fb68c0b461fa2782e4c520c2f92b22b91ee7b0d9dc4aa68fa7"
   }
 }
