@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.13.1",
-  "notes": "## Windows x64\n\n- 修复暂停或意外中断后恢复下载时自动清空已有片段的问题。\n- 来源缺少可靠文件标识时，先核对已有下载内容，再继续写入。校对失败时保留片段，待用户确认后才从头下载。\n\n2.13.0 可通过客户端应用文件级增量更新，其他版本使用完整包。下载完整包后请先解压整个目录，再运行 FDR.exe。",
-  "published_at": "2026-11-17T09:18:38Z",
+  "version": "2.14.1",
+  "notes": "## Windows x64\n\n- 新增 Steam 游玩状态同步。在「设置 → 游戏集成」用 Steam 手机 App 扫码后，可将从 FDR 启动的游戏同步到 Steam。\n- 游戏名称优先使用中文译名。R18+ 游戏默认不同步，开启前会提示 Steam 好友可能看到成人游戏名称。\n- Steam 同步组件采用 Native AOT，无需另装 .NET。\n- 修复下载管理侧栏任务计数与刷新，改进目录中文标题核验。\n\n2.13.1 可以通过客户端应用文件级增量更新，其他版本使用完整包。请解压完整 ZIP 后运行 FDR.exe。\n\nSteam 同步组件及对应 SteamKit2 源码和重建说明见独立发行附件 [FDR-2.14.1-steam-presence-rebuild.zip](https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.14.1/FDR-2.14.1-steam-presence-rebuild.zip)。",
+  "published_at": "2026-11-17T16:45:25Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.13.1/FDR-2.13.1-windows-x64.zip",
-  "size": 58569086,
-  "sha256": "cba311bb59f5fccd65f75e358ed160d6217c2e4c23f08d77235691100fda7ed1",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.14.1/FDR-2.14.1-windows-x64.zip",
+  "size": 63629812,
+  "sha256": "b9f111dc1b3ab8af89c1a9d4d25b857cad462da24397637e9f720f9b095d7f8a",
   "delta": {
     "schema": 1,
-    "from_version": "2.13.0",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.13.1/FDR-2.13.1-windows-x64-delta.zip",
-    "size": 15026061,
-    "sha256": "35fae91c747cc60d1d5b87c8fa5ae1b97010406961990c3a02a0ab152723aeab"
+    "from_version": "2.13.1",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.14.1/FDR-2.14.1-windows-x64-delta.zip",
+    "size": 20087754,
+    "sha256": "1ec8048b7691f40be44fadc1425351bee9d3591e51e318182a55e797a794440e"
   }
 }
