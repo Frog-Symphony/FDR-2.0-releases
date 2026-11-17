@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.12.4",
-  "notes": "## Windows x64\n\n- 修复「全部游戏」和「我的游戏」切换标签或后台刷新时，游戏条目封面闪烁和重复读取的问题。\n- 切回游戏页时保留已加载的列表和封面。推荐卡带仍会播放原有的入场动画。\n\n2.12.3 可通过客户端应用增量更新，其他版本可使用完整包。",
-  "published_at": "2026-11-17T01:36:15Z",
+  "version": "2.13.0",
+  "notes": "## Windows x64\n\n- 目录列表缩紧行距，分类、语种、体积和修改日期分栏对齐，收藏按钮移到独立位置。\n- 在列表中悬停小封面可预览，点击可放大查看。\n- 游戏更新判断支持识别带 Unity 发布后缀的版本号。\n\n2.12.4 可通过客户端应用文件级增量更新，其他版本使用完整包。下载完整包后请先解压整个目录，再运行 FDR.exe。",
+  "published_at": "2026-11-17T07:28:26Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.12.4/FDR-2.12.4-windows-x64.zip",
-  "size": 58551404,
-  "sha256": "c7dfa4c2f17c0b9b2c36951ed966ee74a3ad93ca513fbc5208c8e9057c3de04e",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.13.0/FDR-2.13.0-windows-x64.zip",
+  "size": 58571685,
+  "sha256": "e3291db47384b8ecf5606417f0a8510516e7b0e829909d7ffbd480738411e606",
   "delta": {
     "schema": 1,
-    "from_version": "2.12.3",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.12.4/FDR-2.12.4-windows-x64-delta.zip",
-    "size": 28409793,
-    "sha256": "a4d39b7d793b52a3830ee1539fb0f2f69c652ae187f18190234be5c53af4bf8a"
+    "from_version": "2.12.4",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.13.0/FDR-2.13.0-windows-x64-delta.zip",
+    "size": 15028657,
+    "sha256": "1462557e73ef399f2b7c336878904e1c435359667977a48dff92ef29be96a9d2"
   }
 }
