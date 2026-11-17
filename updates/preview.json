@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.13.0",
-  "notes": "## Windows x64\n\n- 目录列表缩紧行距，分类、语种、体积和修改日期分栏对齐，收藏按钮移到独立位置。\n- 在列表中悬停小封面可预览，点击可放大查看。\n- 游戏更新判断支持识别带 Unity 发布后缀的版本号。\n\n2.12.4 可通过客户端应用文件级增量更新，其他版本使用完整包。下载完整包后请先解压整个目录，再运行 FDR.exe。",
-  "published_at": "2026-11-17T07:28:26Z",
+  "version": "2.13.1",
+  "notes": "## Windows x64\n\n- 修复暂停或意外中断后恢复下载时自动清空已有片段的问题。\n- 来源缺少可靠文件标识时，先核对已有下载内容，再继续写入。校对失败时保留片段，待用户确认后才从头下载。\n\n2.13.0 可通过客户端应用文件级增量更新，其他版本使用完整包。下载完整包后请先解压整个目录，再运行 FDR.exe。",
+  "published_at": "2026-11-17T09:18:38Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.13.0/FDR-2.13.0-windows-x64.zip",
-  "size": 58571685,
-  "sha256": "e3291db47384b8ecf5606417f0a8510516e7b0e829909d7ffbd480738411e606",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.13.1/FDR-2.13.1-windows-x64.zip",
+  "size": 58569086,
+  "sha256": "cba311bb59f5fccd65f75e358ed160d6217c2e4c23f08d77235691100fda7ed1",
   "delta": {
     "schema": 1,
-    "from_version": "2.12.4",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.13.0/FDR-2.13.0-windows-x64-delta.zip",
-    "size": 15028657,
-    "sha256": "1462557e73ef399f2b7c336878904e1c435359667977a48dff92ef29be96a9d2"
+    "from_version": "2.13.0",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.13.1/FDR-2.13.1-windows-x64-delta.zip",
+    "size": 15026061,
+    "sha256": "35fae91c747cc60d1d5b87c8fa5ae1b97010406961990c3a02a0ab152723aeab"
   }
 }
