@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.14.1",
-  "notes": "## Windows x64\n\n- 新增 Steam 游玩状态同步。在「设置 → 游戏集成」用 Steam 手机 App 扫码后，可将从 FDR 启动的游戏同步到 Steam。\n- 游戏名称优先使用中文译名。R18+ 游戏默认不同步，开启前会提示 Steam 好友可能看到成人游戏名称。\n- Steam 同步组件采用 Native AOT，无需另装 .NET。\n- 修复下载管理侧栏任务计数与刷新，改进目录中文标题核验。\n\n2.13.1 可以通过客户端应用文件级增量更新，其他版本使用完整包。请解压完整 ZIP 后运行 FDR.exe。\n\nSteam 同步组件及对应 SteamKit2 源码和重建说明见独立发行附件 [FDR-2.14.1-steam-presence-rebuild.zip](https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.14.1/FDR-2.14.1-steam-presence-rebuild.zip)。",
-  "published_at": "2026-11-17T16:45:25Z",
+  "version": "2.16.0",
+  "notes": "# FDR 2.16.0\n\n- 新增客户端更新代理分流，可选择直连、系统代理或已保存的代理预设。\n- 新增 GitHub 原站、EdgeOne、GHFast 和 GH-Proxy 更新下载节点。展开列表自动检测连通性，右侧显示延时、超时或不可用。\n- 新增「自动选择」，下载更新包时重新测速并使用最快可用节点；手动选择节点后固定使用该节点。\n- 修正更新代理与下载节点控件的对齐，分别提示连接、写盘、大小和 SHA-256 校验错误。\n- 个人游戏库优先显示中文译名，数据目录入口收纳到诊断高级选项。\n- 侧栏副标题、窗口和任务栏标题统一为 Frog Dropping Requiem。\n\nWindows x64 提供完整便携包，以及基于 2.14.1 的文件级增量包。其他版本自动使用完整包。Steam 同步组件沿用 2.14.1 Native AOT 组件，源码与重建附件见随包许可证链接。\n\n节点测速反映当前网络的请求延时，各地区可达性和速度以用户实际线路为准。Windows 发布验证涵盖包完整性、隔离启动、更新传输、安装和失败回退。Linux 实机与中国大陆多运营商线路尚未验收。",
+  "published_at": "2026-11-18T02:00:19Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.14.1/FDR-2.14.1-windows-x64.zip",
-  "size": 63629812,
-  "sha256": "b9f111dc1b3ab8af89c1a9d4d25b857cad462da24397637e9f720f9b095d7f8a",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.16.0/FDR-2.16.0-windows-x64.zip",
+  "size": 62922598,
+  "sha256": "976b745e2c2440b2e6820e3f7a4e822ea5bd14f6f35264016aa6123d168b99c7",
   "delta": {
     "schema": 1,
-    "from_version": "2.13.1",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.14.1/FDR-2.14.1-windows-x64-delta.zip",
-    "size": 20087754,
-    "sha256": "1ec8048b7691f40be44fadc1425351bee9d3591e51e318182a55e797a794440e"
+    "from_version": "2.14.1",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.16.0/FDR-2.16.0-windows-x64-delta.zip",
+    "size": 14331991,
+    "sha256": "02708669f30dcdc9024355a8b0c021646cd285c1693798e6b9436969e1dfd70d"
   }
 }
