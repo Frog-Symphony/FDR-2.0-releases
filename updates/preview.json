@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.16.0",
-  "notes": "# FDR 2.16.0\n\n- 新增客户端更新代理分流，可选择直连、系统代理或已保存的代理预设。\n- 新增 GitHub 原站、EdgeOne、GHFast 和 GH-Proxy 更新下载节点。展开列表自动检测连通性，右侧显示延时、超时或不可用。\n- 新增「自动选择」，下载更新包时重新测速并使用最快可用节点；手动选择节点后固定使用该节点。\n- 修正更新代理与下载节点控件的对齐，分别提示连接、写盘、大小和 SHA-256 校验错误。\n- 个人游戏库优先显示中文译名，数据目录入口收纳到诊断高级选项。\n- 侧栏副标题、窗口和任务栏标题统一为 Frog Dropping Requiem。\n\nWindows x64 提供完整便携包，以及基于 2.14.1 的文件级增量包。其他版本自动使用完整包。Steam 同步组件沿用 2.14.1 Native AOT 组件，源码与重建附件见随包许可证链接。\n\n节点测速反映当前网络的请求延时，各地区可达性和速度以用户实际线路为准。Windows 发布验证涵盖包完整性、隔离启动、更新传输、安装和失败回退。Linux 实机与中国大陆多运营商线路尚未验收。",
-  "published_at": "2026-11-18T02:00:19Z",
+  "version": "2.16.2",
+  "notes": "## Windows x64\n\n- Steam 状态同步支持记住登录，在当前 Windows 用户下加密保存凭据，退出 FDR 后再次打开会自动恢复连接。\n- 已授权的登录失效时自动显示重新登录提醒。点击“重新登录”进入扫码流程，点击右上角 × 或按 Esc 略过后，后续启动不再提醒，可随时在设置中主动重新连接。\n- 旧版本的临时授权需要再扫码一次，以保存持久登录。首次使用和单纯网络中断不会弹出授权失效提醒。\n\n2.16.1 可使用文件级增量更新，其他版本使用完整包。请解压完整 ZIP 后运行 FDR.exe。\n\n[Steam 同步组件源码与重建材料](https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.16.2/FDR-2.16.2-steam-presence-rebuild.zip)作为独立附件提供。",
+  "published_at": "2026-11-18T02:59:08Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.16.0/FDR-2.16.0-windows-x64.zip",
-  "size": 62922598,
-  "sha256": "976b745e2c2440b2e6820e3f7a4e822ea5bd14f6f35264016aa6123d168b99c7",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.16.2/FDR-2.16.2-windows-x64.zip",
+  "size": 63769894,
+  "sha256": "5885678e8c623730ad8e583b36b1305733d59b6faa687d9830fcb64680def51d",
   "delta": {
     "schema": 1,
-    "from_version": "2.14.1",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.16.0/FDR-2.16.0-windows-x64-delta.zip",
-    "size": 14331991,
-    "sha256": "02708669f30dcdc9024355a8b0c021646cd285c1693798e6b9436969e1dfd70d"
+    "from_version": "2.16.1",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.16.2/FDR-2.16.2-windows-x64-delta.zip",
+    "size": 15115873,
+    "sha256": "339c984ef990a4bc57d4cfbd9ddb605f743f3356c174a95d572de6c50f1eed86"
   }
 }
