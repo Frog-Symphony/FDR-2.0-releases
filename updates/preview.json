@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.17.0",
-  "notes": "## 新增\n- 新增可选的「淡雅浅色」皮肤，可在设置中随时切换。默认仍为「经典外观」，三套复古皮肤继续保留。\n\n## 修复\n- Steam 状态同步断线后会自动重连，并保留正在运行的游戏状态。",
-  "published_at": "2026-11-20T02:27:49Z",
+  "version": "2.17.1",
+  "notes": "- 修复目录快照过期时下载按钮被禁用的问题。即使快照过期，也可首次下载或下载可确认的较新版本。\n- 个人库的目录时效提示阈值调整为 72 小时；同版重复下载和原安装文件保护规则不变。\n- 更新随包基础目录至 20261120T104047Z。",
+  "published_at": "2026-11-20T11:14:44Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.17.0/FDR-2.17.0-windows-x64.zip",
-  "size": 63405658,
-  "sha256": "7c53236717a5f1a5e0405494ce63a5cc090edf5f400fddb1adf7fda475be7fd0",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.17.1/FDR-2.17.1-windows-x64.zip",
+  "size": 63408647,
+  "sha256": "cbabb43ee4bc58d883b4f17a60adf88f280141b033bbc912e71b6e1014fadf5c",
   "delta": {
     "schema": 1,
-    "from_version": "2.16.2",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.17.0/FDR-2.17.0-windows-x64-delta.zip",
-    "size": 21909270,
-    "sha256": "71abbaad7035a5573481c9937652b07b5161cf501bf74c85bf8fd6cad1f11cea"
+    "from_version": "2.17.0",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.17.1/FDR-2.17.1-windows-x64-delta.zip",
+    "size": 15188050,
+    "sha256": "b15843c3550cc73e5471df5ba42d85c2193706d7cf56fe1ac1140a4b7ed20069"
   }
 }
