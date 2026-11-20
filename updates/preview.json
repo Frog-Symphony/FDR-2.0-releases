@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.16.2",
-  "notes": "## Windows x64\n\n- Steam 状态同步支持记住登录，在当前 Windows 用户下加密保存凭据，退出 FDR 后再次打开会自动恢复连接。\n- 已授权的登录失效时自动显示重新登录提醒。点击“重新登录”进入扫码流程，点击右上角 × 或按 Esc 略过后，后续启动不再提醒，可随时在设置中主动重新连接。\n- 旧版本的临时授权需要再扫码一次，以保存持久登录。首次使用和单纯网络中断不会弹出授权失效提醒。\n\n2.16.1 可使用文件级增量更新，其他版本使用完整包。请解压完整 ZIP 后运行 FDR.exe。\n\n[Steam 同步组件源码与重建材料](https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.16.2/FDR-2.16.2-steam-presence-rebuild.zip)作为独立附件提供。",
-  "published_at": "2026-11-18T02:59:08Z",
+  "version": "2.17.0",
+  "notes": "## 新增\n- 新增可选的「淡雅浅色」皮肤，可在设置中随时切换。默认仍为「经典外观」，三套复古皮肤继续保留。\n\n## 修复\n- Steam 状态同步断线后会自动重连，并保留正在运行的游戏状态。",
+  "published_at": "2026-11-20T02:27:49Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.16.2/FDR-2.16.2-windows-x64.zip",
-  "size": 63769894,
-  "sha256": "5885678e8c623730ad8e583b36b1305733d59b6faa687d9830fcb64680def51d",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.17.0/FDR-2.17.0-windows-x64.zip",
+  "size": 63405658,
+  "sha256": "7c53236717a5f1a5e0405494ce63a5cc090edf5f400fddb1adf7fda475be7fd0",
   "delta": {
     "schema": 1,
-    "from_version": "2.16.1",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.16.2/FDR-2.16.2-windows-x64-delta.zip",
-    "size": 15115873,
-    "sha256": "339c984ef990a4bc57d4cfbd9ddb605f743f3356c174a95d572de6c50f1eed86"
+    "from_version": "2.16.2",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.17.0/FDR-2.17.0-windows-x64-delta.zip",
+    "size": 21909270,
+    "sha256": "71abbaad7035a5573481c9937652b07b5161cf501bf74c85bf8fd6cad1f11cea"
   }
 }
