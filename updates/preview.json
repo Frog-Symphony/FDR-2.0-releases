@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.17.1",
-  "notes": "- 修复目录快照过期时下载按钮被禁用的问题。即使快照过期，也可首次下载或下载可确认的较新版本。\n- 个人库的目录时效提示阈值调整为 72 小时；同版重复下载和原安装文件保护规则不变。\n- 更新随包基础目录至 20261120T104047Z。",
-  "published_at": "2026-11-20T11:14:44Z",
+  "version": "2.18.0",
+  "notes": "- 修复游戏详情截图横向拖动后偶发无法点击放大的问题。Steam 商店的有效截图全部可浏览，预览支持箭头和键盘循环翻页。\n- 目录和个人库更新列表翻页时回到顶部；后台列表状态变化不影响当前页。\n- 打开游戏详情时可使用主窗口关闭按钮，其他确认弹窗继续保留原有保护。",
+  "published_at": "2026-11-21T08:23:55Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.17.1/FDR-2.17.1-windows-x64.zip",
-  "size": 63408647,
-  "sha256": "cbabb43ee4bc58d883b4f17a60adf88f280141b033bbc912e71b6e1014fadf5c",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.18.0/FDR-2.18.0-windows-x64.zip",
+  "size": 63423092,
+  "sha256": "27d7a0dc318d2a70b678dd2227bd60aed278b34aa8b8e1443fcea152194ff5e9",
   "delta": {
     "schema": 1,
-    "from_version": "2.17.0",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.17.1/FDR-2.17.1-windows-x64-delta.zip",
-    "size": 15188050,
-    "sha256": "b15843c3550cc73e5471df5ba42d85c2193706d7cf56fe1ac1140a4b7ed20069"
+    "from_version": "2.17.1",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.18.0/FDR-2.18.0-windows-x64-delta.zip",
+    "size": 14760201,
+    "sha256": "2e00c8de0a2b2772f1ab3c1f89845f523f413529d9f79c3036616b50f2e28eb7"
   }
 }
