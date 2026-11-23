@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.19.0",
-  "notes": "- 重构网络设置：轻量服务与游戏大文件分别配置线路和自动回退；大文件从直连切换到代理前默认需要确认。\n- 升级须知：旧版按用途代理、自定义节点及客户端更新节点选择会重置。更新前记下所需线路与代理参数，更新后在设置的「网络」页重新添加并测试；不要在导出记录里保存代理密码。\n- 第三方本机客户端须改用第 2 版网络设置结构；连通性测试迁至 POST /api/v1/network/test。具体字段见仓库的本机接口文档。\n- 客户端更新清单仅从官方源读取；更新包仍可通过加速线路下载，并按官方摘要校验。",
-  "published_at": "2026-11-22T13:41:54Z",
+  "version": "2.19.1",
+  "notes": "- 优化经典外观、千禧风格、黑客和 PC-98 的可读性、目录首屏及操作层级；紧凑窗口可展开推荐，游戏详情的关闭按钮固定在右上角。\n- 区分空收藏、筛选无结果和读取失败；修复后台刷新导致目录重试一直加载的问题。没有新版时不再显示「下载更新」。\n- 修正规常网络回退提示、网络体检和本机代理测速；保留可用的内置加速优先级。\n- 默认地区无法取得 Steam 商店资料时尝试美区；关闭详情后，迟到的刷新结果不会重新打开它。",
+  "published_at": "2026-11-23T06:23:27Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.19.0/FDR-2.19.0-windows-x64.zip",
-  "size": 63958684,
-  "sha256": "e8b9314982758108ba541d4cd45777f29c694a9029ff32722469f1b9af19142d",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.19.1/FDR-2.19.1-windows-x64.zip",
+  "size": 64067698,
+  "sha256": "bde24672e63e5f15ab941566178ff71771344b0d4d8bfcc4ffe2b6a4c83ff024",
   "delta": {
     "schema": 1,
-    "from_version": "2.18.0",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.19.0/FDR-2.19.0-windows-x64-delta.zip",
-    "size": 15295784,
-    "sha256": "43ee49a5d62256e2179d20e465b87f4e82b7d94faf83d7aa36399b3686a50575"
+    "from_version": "2.19.0",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.19.1/FDR-2.19.1-windows-x64-delta.zip",
+    "size": 15404798,
+    "sha256": "9acab5c40ebed273e53acc2ce7ec5f3802c218f3d820b60a5745dce61cb19295"
   }
 }
