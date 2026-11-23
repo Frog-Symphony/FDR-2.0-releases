@@ -10,7 +10,7 @@
 
 [下载最新正式版](https://github.com/Frog-Symphony/FDR-2.0-releases/releases/latest) · [查看全部版本](https://github.com/Frog-Symphony/FDR-2.0-releases/releases) · [浏览在线目录](https://frog-symphony.github.io/FDR-2.0-releases/)
 
-**当前正式版 [2.19.0](https://github.com/Frog-Symphony/FDR-2.0-releases/releases/tag/v2.19.0) · Windows 10 / 11 x64 · Qt Quick 原生客户端 · 便携 ZIP**
+**当前正式版 [2.19.1](https://github.com/Frog-Symphony/FDR-2.0-releases/releases/tag/v2.19.1) · Windows 10 / 11 x64 · Qt Quick 原生客户端 · 便携 ZIP**
 
 
 ## 界面预览
@@ -24,9 +24,9 @@
 </p>
 
 
-## 四款可切换皮肤
+## 界面皮肤
 
-在 **设置 → 外观与操作 → 界面皮肤** 中选择经典外观、千禧风格、黑客或 PC-98。经典为默认，选择立即生效并自动保存，游戏封面保持原色。
+在 **设置 → 外观与操作 → 界面皮肤** 中选择经典外观、千禧风格、黑客、PC-98 或淡雅浅色。经典为默认，选择立即生效并自动保存，游戏封面保持原色。
 
 <table>
   <tr>
