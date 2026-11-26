@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.20.1",
-  "notes": "修复天翼云分享下载卡在「等待来源链接」的问题；取链失败时显示脱敏的 HTTP 状态及响应类型，便于排查。",
-  "published_at": "2026-11-26T13:40:57Z",
+  "version": "2.21.0",
+  "notes": "- 统一全部游戏与各分类的「最近更新」排序；切换分类只筛选结果，不再重排。\n- 个人库支持设置、修改和清除游戏启动参数。\n- 修复「更新游戏列表」菜单偶尔收缩成窄条的问题。",
+  "published_at": "2026-11-26T14:38:23Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.20.1/FDR-2.20.1-windows-x64.zip",
-  "size": 64123104,
-  "sha256": "1dc34ad9f76feec2fd427a8d173c127f6425a4c09c9554a483c549dbe37b641b",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.21.0/FDR-2.21.0-windows-x64.zip",
+  "size": 64092230,
+  "sha256": "b51a0351bbd656cc6054d32c9fdf4aac3bb1c140da2705a7a9bb91ffb67bd945",
   "delta": {
     "schema": 1,
-    "from_version": "2.20.0",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.20.1/FDR-2.20.1-windows-x64-delta.zip",
-    "size": 15463708,
-    "sha256": "20109fe4d2c7d35924020f39ce4d4763de42b9b0dfb5f09ba0cf62b14f2848a1"
+    "from_version": "2.20.1",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.21.0/FDR-2.21.0-windows-x64-delta.zip",
+    "size": 17499331,
+    "sha256": "b8ca3331039ad0d425f07f0f593003d61d493a6ea8f14b6b0dae2d1cb982b776"
   }
 }
