@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.19.1",
-  "notes": "- 优化经典外观、千禧风格、黑客和 PC-98 的可读性、目录首屏及操作层级；紧凑窗口可展开推荐，游戏详情的关闭按钮固定在右上角。\n- 区分空收藏、筛选无结果和读取失败；修复后台刷新导致目录重试一直加载的问题。没有新版时不再显示「下载更新」。\n- 修正规常网络回退提示、网络体检和本机代理测速；保留可用的内置加速优先级。\n- 默认地区无法取得 Steam 商店资料时尝试美区；关闭详情后，迟到的刷新结果不会重新打开它。",
-  "published_at": "2026-11-23T06:23:27Z",
+  "version": "2.20.0",
+  "notes": "- 个人游戏库新增封面点击行为设置（默认直接启动，可设为查看详情），右键菜单增加查看游戏详情；游戏详情页对本地已有安装提供立即启动入口，相关偏好纳入备份快照。\n- 修复 Windows 游戏直接启动的路径兼容性问题。\n- 修复多项界面与跨皮肤问题：补全主题警告边框令牌、修正个人库图标视图筛选记忆与下拉框状态同步、未知体积下载显示不确定态进度条、下载中展示进度百分比与预计剩余时间、修复淡雅浅色模式横幅高度与详情关闭按钮位置。\n- 目录搜索支持一键清空与筛选计数提示，收藏页支持右键菜单；优化任务列表增量刷新、图片采样内存与闭合光盘盒绘制，并皮肤化更新菜单、加载指示器与弹窗。",
+  "published_at": "2026-11-26T03:54:04Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.19.1/FDR-2.19.1-windows-x64.zip",
-  "size": 64067698,
-  "sha256": "bde24672e63e5f15ab941566178ff71771344b0d4d8bfcc4ffe2b6a4c83ff024",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.20.0/FDR-2.20.0-windows-x64.zip",
+  "size": 64116942,
+  "sha256": "0693a730ca574dabba9cdbb2ce58f04bdd7924e6d12ac3d33019386a9088db8a",
   "delta": {
     "schema": 1,
-    "from_version": "2.19.0",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.19.1/FDR-2.19.1-windows-x64-delta.zip",
-    "size": 15404798,
-    "sha256": "9acab5c40ebed273e53acc2ce7ec5f3802c218f3d820b60a5745dce61cb19295"
+    "from_version": "2.19.1",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.20.0/FDR-2.20.0-windows-x64-delta.zip",
+    "size": 15454043,
+    "sha256": "23a61d0ffaed0d80bb2422870b5b720242070526c54c2895a6112013b82fcdad"
   }
 }
