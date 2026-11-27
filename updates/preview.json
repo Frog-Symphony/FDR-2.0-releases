@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.22.0",
-  "notes": "- 新增「淡雅深色（soft-dark）」皮肤与独立信息密度设置（跟随皮肤 / 标准完整 / 精简专注），设置页重组为 5 大模块并新增皮肤、信息密度与游戏载体可视化画廊及存储占用分段条。\n- 新增侧边栏实时迷你下载舱、全局 `Ctrl+K` 命令面板及 42px 顶部导航栏（支持 `Alt+←/→` 历史回退与滚动位置恢复）。\n- 升级目录浏览（吸顶工具栏、快捷筛选芯片、可折叠随机推荐、沉浸式双栏游戏详情）与个人游戏库（实时搜索、状态计数芯片、实体货架层板及右侧 4 标签管理工作台抽屉）。\n- 升级下载管理中心（队列总速率、16 点趋势图、4 段计数标签与勾选批量操作）与 820px 宽更新／回滚冲突解决弹窗（进度胶囊、仅看冲突与本页批量选择）。\n- Windows 启用原生无边框自绘标题栏并将窗口三键集成至顶部导航栏（模态弹窗打开时保持可用）；目录管理工作台网页同步至复古纸墨亮／暗双色主题。",
-  "published_at": "2026-11-27T04:17:30Z",
+  "version": "2.23.0",
+  "notes": "- 彻底解耦淡雅系列（浅色／深色）与传统四皮肤视图层，支持传统自绘标题栏与淡雅系统标题栏热切换。\n- 优化淡雅目录与个人游戏库体验：支持排序持久化、后台资料补全、列表对齐修正、下载页小封面预览、极简平面流布局与文件所在目录定位。\n- 淡雅错误提示升级为右下角悬浮 Toast 通知栈，重构网络与代理设置分区并全量清理技术说明文案，修复游戏详情页打开时的滚动位置。\n- 恢复随包 Steam 状态同步组件（Native AOT）；支持从 `2.22.0` 增量更新。",
+  "published_at": "2026-11-27T08:27:12Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.22.0/FDR-2.22.0-windows-x64.zip",
-  "size": 59510264,
-  "sha256": "1332af90c8889d0a97d98683552ccd3255541af7e14238bd5d1d5cf8a40036c5",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.23.0/FDR-2.23.0-windows-x64.zip",
+  "size": 66024475,
+  "sha256": "0bfb71d4fa8834714e4b060a2724896e99206592733581ba277a74983fefaa2c",
   "delta": {
     "schema": 1,
-    "from_version": "2.21.0",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.22.0/FDR-2.22.0-windows-x64-delta.zip",
-    "size": 18012914,
-    "sha256": "cc078161fe6ab8ea1d3a6a1ae744f06617127a65780bd735f64583a691ab7109"
+    "from_version": "2.22.0",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.23.0/FDR-2.23.0-windows-x64-delta.zip",
+    "size": 22453662,
+    "sha256": "5a6304f834f93517328d39a1ffb2fe3cc7dc03ddb0de3b8c56ecbe38f8efecca"
   }
 }
