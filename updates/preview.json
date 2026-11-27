@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.23.0",
-  "notes": "- 彻底解耦淡雅系列（浅色／深色）与传统四皮肤视图层，支持传统自绘标题栏与淡雅系统标题栏热切换。\n- 优化淡雅目录与个人游戏库体验：支持排序持久化、后台资料补全、列表对齐修正、下载页小封面预览、极简平面流布局与文件所在目录定位。\n- 淡雅错误提示升级为右下角悬浮 Toast 通知栈，重构网络与代理设置分区并全量清理技术说明文案，修复游戏详情页打开时的滚动位置。\n- 恢复随包 Steam 状态同步组件（Native AOT）；支持从 `2.22.0` 增量更新。",
-  "published_at": "2026-11-27T08:27:12Z",
+  "version": "2.23.1",
+  "notes": "### FDR 2.23.1（传统四皮肤视觉质感与动效精雕）\n\n本次更新专注打磨**经典、千禧、黑客、PC-98**四套传统皮肤的视觉层次、光影细节与交互动效；**淡雅浅色／深色皮肤保持原状不变**，同时随包保留已验证的 Steam 状态同步组件（Native AOT）。\n\n- **字体与排版层次**：传统皮肤优先采用 `Noto Sans SC` 多字重中文无衬线字栈（千禧／PC-98 标题保留像素字韵），优化主标题字距、副标题间距与正文字号行高对比，目录及下载任务数据列采用等宽数字对齐。\n- **质感、光影与细节修正**：为传统经典与黑客皮肤的卡片、弹出菜单、顶栏、对话框与详情页加入柔和立体阴影（`MultiEffect`）及金属表面高光／底阴影；修复侧边栏、顶栏及筛选按钮透明底色悬停瞬间闪黑问题，收窄设置导航焦点框至键盘 `Tab` 触发并去除鼠标点击黑边。\n- **优雅动效与页面过渡**：修复个人库卡带悬停动效（仅卡带本体微升放大并带浮升阴影与斜光光泽，保持木搁板与标题基线对齐）；主导航切换、设置页右侧面板与个人库工作台抽屉切换接入丝滑淡入平移动效，设置页左侧选中栏改为单药丸连续滑移指示；全局兼容“减少动效”偏好设置。",
+  "published_at": "2026-11-27T12:44:08Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.23.0/FDR-2.23.0-windows-x64.zip",
-  "size": 66024475,
-  "sha256": "0bfb71d4fa8834714e4b060a2724896e99206592733581ba277a74983fefaa2c",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.23.1/FDR-2.23.1-windows-x64.zip",
+  "size": 66166930,
+  "sha256": "6902db19c107a11b8af55d0f8c626e8fcba2ca6f5fb360e608d2b0ebafe08e18",
   "delta": {
     "schema": 1,
-    "from_version": "2.22.0",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.23.0/FDR-2.23.0-windows-x64-delta.zip",
-    "size": 22453662,
-    "sha256": "5a6304f834f93517328d39a1ffb2fe3cc7dc03ddb0de3b8c56ecbe38f8efecca"
+    "from_version": "2.23.0",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.23.1/FDR-2.23.1-windows-x64-delta.zip",
+    "size": 17504033,
+    "sha256": "11e9938e9b752b145b9e222bacff3b4b805e86be3a1cd2af9b267375802a55a1"
   }
 }
