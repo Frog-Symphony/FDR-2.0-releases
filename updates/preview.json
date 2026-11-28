@@ -2,19 +2,19 @@
   "schema": 1,
   "channel": "native-qt-experiment",
   "client_architecture": "native-qt",
-  "version": "2.23.1",
-  "notes": "### FDR 2.23.1（传统四皮肤视觉质感与动效精雕）\n\n本次更新专注打磨**经典、千禧、黑客、PC-98**四套传统皮肤的视觉层次、光影细节与交互动效；**淡雅浅色／深色皮肤保持原状不变**，同时随包保留已验证的 Steam 状态同步组件（Native AOT）。\n\n- **字体与排版层次**：传统皮肤优先采用 `Noto Sans SC` 多字重中文无衬线字栈（千禧／PC-98 标题保留像素字韵），优化主标题字距、副标题间距与正文字号行高对比，目录及下载任务数据列采用等宽数字对齐。\n- **质感、光影与细节修正**：为传统经典与黑客皮肤的卡片、弹出菜单、顶栏、对话框与详情页加入柔和立体阴影（`MultiEffect`）及金属表面高光／底阴影；修复侧边栏、顶栏及筛选按钮透明底色悬停瞬间闪黑问题，收窄设置导航焦点框至键盘 `Tab` 触发并去除鼠标点击黑边。\n- **优雅动效与页面过渡**：修复个人库卡带悬停动效（仅卡带本体微升放大并带浮升阴影与斜光光泽，保持木搁板与标题基线对齐）；主导航切换、设置页右侧面板与个人库工作台抽屉切换接入丝滑淡入平移动效，设置页左侧选中栏改为单药丸连续滑移指示；全局兼容“减少动效”偏好设置。",
-  "published_at": "2026-11-27T12:44:08Z",
+  "version": "2.23.2",
+  "notes": "### 主要更新\n\n- **本地持久化缓存与加载优化**\n  - 将游戏简介与截图地址列表持久化保存至本地 SQLite 数据库，已查看过的游戏及本地安装游戏重启后可直接读取，无需重复联网等待。\n  - 为「全部游戏 / 我的收藏」目录切换、「我的游戏 → 检查更新」标签与筛选切换、工作台「版本与恢复」以及「下载管理」增加本地缓存与页码记忆，消除来回切换时的重复 loading 闪烁。\n  - 优化图片路由变更触发时机，减少无谓延迟。\n- **淡雅主题体验优化**\n  - 移除淡雅主题启动游戏时残留的旧版卡带/光盘插槽遮罩动画，点击立即直接启动（传统皮肤保持原动画不变）。\n  - 清理淡雅主题「我的游戏」网格卡片、列表行与管理工作台中重复显示的「运行中」状态文案。\n- **网络与代理检测修复**\n  - 仅通过 Windows 系统代理配置（WinINet `ProxyEnable`）判断系统代理开关状态，不再因环境变量误报「系统代理已开启」。",
+  "published_at": "2026-11-28T07:49:44Z",
   "platform": "win32",
   "arch": "x64",
-  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.23.1/FDR-2.23.1-windows-x64.zip",
-  "size": 66166930,
-  "sha256": "6902db19c107a11b8af55d0f8c626e8fcba2ca6f5fb360e608d2b0ebafe08e18",
+  "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.23.2/FDR-2.23.2-windows-x64.zip",
+  "size": 66806746,
+  "sha256": "f2f3aecc0b932d9cf8b2ec11f4dc84903926c7a01220449a9ba6ba418909b01e",
   "delta": {
     "schema": 1,
-    "from_version": "2.23.0",
-    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.23.1/FDR-2.23.1-windows-x64-delta.zip",
-    "size": 17504033,
-    "sha256": "11e9938e9b752b145b9e222bacff3b4b805e86be3a1cd2af9b267375802a55a1"
+    "from_version": "2.23.1",
+    "url": "https://github.com/Frog-Symphony/FDR-2.0-releases/releases/download/v2.23.2/FDR-2.23.2-windows-x64-delta.zip",
+    "size": 20284571,
+    "sha256": "f65bd4d4a9b540d26c3b5998e611a9a573394487a6f4d20c66e3c1499061f0be"
   }
 }
